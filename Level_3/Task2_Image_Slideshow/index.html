@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neelam Deepthi - CSS Image Slideshow | Cognifyz Level 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="slideshow-header">
+        <div class="container">
+            <h1>🖼️ CSS Image Slideshow</h1>
+            <p class="subhead">Automatic image transitions using pure CSS animations</p>
+            <p class="intern-info">Neelam Deepthi | Cognifyz Technologies | Web Development Intern</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- CSS-Only Automatic Slideshow -->
+            <div class="slideshow-container">
+                <div class="slideshow">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=600&fit=crop" 
+                             alt="Web Development">
+                        <div class="slide-caption">
+                            <h3>Web Development</h3>
+                            <p>HTML5, CSS3, JavaScript</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=600&fit=crop" 
+                             alt="Responsive Design">
+                        <div class="slide-caption">
+                            <h3>Responsive Design</h3>
+                            <p>Mobile-first, Media Queries</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop" 
+                             alt="UI/UX Design">
+                        <div class="slide-caption">
+                            <h3>UI/UX Design</h3>
+                            <p>User-centered design principles</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=600&fit=crop" 
+                             alt="JavaScript">
+                        <div class="slide-caption">
+                            <h3>JavaScript</h3>
+                            <p>Interactive web applications</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 5 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1764452008254-eed469a4fad3?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFpJTIwbWx8ZW58MHx8MHx8fDA%3D" 
+                             alt="AI & Machine Learning">
+                        <div class="slide-caption">
+                            <h3>AI & Machine Learning</h3>
+                            <p>Deep Learning, TensorFlow</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation dots (CSS controlled) -->
+                <div class="slideshow-nav">
+                    <div class="nav-dot" onclick="void(0)"></div>
+                    <div class="nav-dot" onclick="void(0)"></div>
+                    <div class="nav-dot" onclick="void(0)"></div>
+                    <div class="nav-dot" onclick="void(0)"></div>
+                    <div class="nav-dot" onclick="void(0)"></div>
+                </div>
+            </div>
+            
+            <!-- Features Section -->
+            <div class="features-section">
+                <h2 class="section-title">✨ Slideshow Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Auto Transition</h3>
+                        <p>CSS animation automatically cycles through images every 5 seconds</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Pure CSS</h3>
+                        <p>No JavaScript required - uses CSS keyframes and animation-delay</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Fully responsive design that works on all screen sizes</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏷️</div>
+                        <h3>Image Captions</h3>
+                        <p>Beautiful overlays with slide titles and descriptions</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technical Details -->
+            <div class="technical-details">
+                <h2 class="section-title">⚙️ How It Works</h2>
+                <div class="code-explanation">
+                    <p><strong>CSS Keyframes:</strong> @keyframes slideShow controls the visibility of each slide</p>
+                    <p><strong>Animation Delay:</strong> Each slide has staggered animation-delay (0s, 5s, 10s, etc.)</p>
+                    <p><strong>Infinite Loop:</strong> animation-iteration-count: infinite creates seamless loop</p>
+                    <p><strong>Opacity Control:</strong> Slides fade in and out using opacity property</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Neelam Deepthi | Cognifyz Technologies Internship</p>
+            <p class="hashtags">#cognifyz #cognifyzTech #cognifyzTechnologies #CSSSlideshow</p>
+            <p class="note">Level 3 - Task 2: Automatic Image Slideshow with CSS</p>
+            <p class="note">Animation duration: 25 seconds for full cycle | 5 seconds per slide</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neelam Deepthi - Image Gallery | Cognifyz Level 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="gallery-header">
+        <div class="container">
+            <h1> Image Gallery</h1>
+            <p class="subhead">Click on any thumbnail to enlarge • Level 3 Task 1</p>
+            <p class="intern-info">Neelam Deepthi | Cognifyz Technologies | Web Development Intern</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" 
+                         alt="Web Development" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>Web Development</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop" 
+                         alt="Responsive Design" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>Responsive Design</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" 
+                         alt="UI/UX Design" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>UI/UX Design</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" 
+                         alt="JavaScript" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1764452008254-eed469a4fad3?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFpJTIwbWx8ZW58MHx8MHx8fDA%3D" 
+                         alt="AI & Machine Learning" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>AI & Machine Learning</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600&h=400&fit=crop" 
+                         alt="Python Programming" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>Python</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 7 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&h=400&fit=crop" 
+                         alt="Full Stack Development" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>Full Stack</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 8 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" 
+                         alt="Data Science" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>Data Science</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 9 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&h=400&fit=crop" 
+                         alt="React" 
+                         loading="lazy"
+                         class="gallery-thumbnail">
+                    <div class="overlay">
+                        <span>React</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal (Hidden by default) -->
+    <div id="lightbox-modal" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <span class="prev-btn">&#10094;</span>
+        <span class="next-btn">&#10095;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-image" src="" alt="Enlarged view">
+            <div id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Neelam Deepthi | Cognifyz Technologies Internship</p>
+            <p class="hashtags">#cognifyz #cognifyzTech #cognifyzTechnologies #ImageGallery</p>
+            <p class="note">Level 3 - Task 1: Image Gallery with Enlarge on Click</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
